@@ -9,7 +9,7 @@ Features
 - **Android App**: Download the app for Android devices [here](http://www.appcreator24.com/app3525820-y7snjg).
 
 Live Project
-Access the live project hosted via GitHub Pages at: **[Live Link Placeholder]** (Update this with your GitHub Pages URL).
+Access the live project hosted via GitHub Pages at: https://mildlysavagedigitalllc.github.io/Zapp-City/
 
 Get Involved
 We welcome contributors and collaborators to improve Zapp City! Fork the repository and submit your pull requests.
