@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* General Body Styling */
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Header Styling */
+.header {
+    background-color: #FF0000;
+    padding: 20px;
+}
+
+.header h1 {
+    color: gold;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header h2 {
+    color: white;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* Navigation Styling */
+.nav {
+    margin: 20px;
+}
+
+.nav button {
+    background-color: gold;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.nav button:hover {
+    background-color: #FFD700;
+    color: white;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+main p, h2 {
+    font-size: 1.2em;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #222;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* Profile Preview Styling */
+#profile-preview {
+    margin-top: 20px;
+}
+
+#profile-image {
+    border: 2px solid gold;
+}
