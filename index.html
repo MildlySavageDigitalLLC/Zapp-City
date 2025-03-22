@@ -1,17 +1,80 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zapp City</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body style="text-align: center;">
-    <h1>Welcome to Zapp City</h1>
-    <p>An open-source Bitcoin networking protocol project.</p>
+<body>
+    <header class="header">
+        <h1>⚡Zapp City⚡</h1>
+        <h2>Bitcoiner Networking Protocol</h2>
+    </header>
+  
+  
+    <div style="margin: 20px; text-align: center;">
+
+    <h3>Download Our App</h3>
+
+    <p style="font-size: 1.2em;">Currently available for Android phones</p>
+
     <a href="http://www.appcreator24.com/app3525820-y7snjg" 
-       style="display: inline-block; background-color: #FF5722; color: white; padding: 10px 20px;
-              text-decoration: none; border-radius: 5px; font-weight: bold;">
-       Download Android App
+
+       style="display: inline-block; background-color: #FF5722; color: white; padding: 10px 20px; 
+
+              text-decoration: none; border-radius: 5px; font-weight: bold;"
+
+       target="_blank" rel="noopener noreferrer">
+
+       Download for Android
+
     </a>
+
+</div>
+  
+    <!-- Navigation Section -->
+    <nav class="nav">
+        <button onclick="navigate('chatrooms')">Chatrooms</button>
+        <button onclick="navigate('transactions')">Transactions</button>
+        <button onclick="navigate('profile')">Create Profile</button>
+        <button onclick="navigate('donations')">Donations</button>
+        </nav>
+
+    <!-- Main Content Section -->
+    <main id="main-content">
+        <h2>Welcome to Zapp City</h2>
+        <p>Select an option from the navigation bar to get started.</p>
+    </main>
+
+    <!-- Permanent Disclosure -->
+    <footer class="footer">
+        <p id="disclosure">
+            By using Zapp City, you agree to the following: No pornographic material, users must be 18 and older, and no bullying or threatening behavior is allowed. Violations may result in account suspension.
+        </p>
+        <p>&copy; 2025 Zapp City. Mildly Savage Digital LLC</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+<div id="chatroom" style="display:none;">
+    <h3 id="chatroom-title"></h3>
+    <div id="chat-messages" style="border: 1px solid gold; padding: 10px; height: 200px; overflow-y: auto;"></div>
+    <input type="text" id="chat-input" placeholder="Type your message" style="width: 80%;">
+    <div id="chatroom" style="display:none;">
+    <h3 id="chatroom-title"></h3>
+    
+    <div id="chatroom" style="display:none;">
+
+    <h3 id="chatroom-title"></h3>
+
+    <div id="chat-messages" style="border: 1px solid gold; padding: 10px; height: 200px; overflow-y: auto;"></div>
+
+    <input type="text" id="chat-input" placeholder="Type your message" style="width: 80%;">
+    </div>
+  
+  
+  
+  
